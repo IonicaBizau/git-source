@@ -1,14 +1,18 @@
+
 # git-source [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/git-source.svg)](https://www.npmjs.com/package/git-source) [![Downloads](https://img.shields.io/npm/dt/git-source.svg)](https://www.npmjs.com/package/git-source) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Parse and stringify git urls in a friendly way.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save git-source
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 const gitSource = require("git-source");
@@ -62,13 +66,18 @@ console.log(gitSource("git@github.com:IonicaBizau/git-url-parse.git"));
 //   full_name: 'IonicaBizau/git-url-parse' }
 ```
 
-## How to contribute
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
-## License
+
+ - [`git-cloner`](https://github.com/IonicaBizau/git-cloner#readme)—Clone multiple git repositories.
+ - [`gpm`](https://github.com/IonicaBizau/gpm)—npm + git = gpm - Install NPM packages and dependencies from git repositories.
+ - [`package.json`](https://github.com/IonicaBizau/package.json#readme)—Get the package.json content either from npm or from a git repository.
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
