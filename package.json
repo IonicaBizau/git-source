@@ -1,6 +1,6 @@
 {
   "name": "git-source",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Parse and stringify git urls in a friendly way.",
   "main": "lib/index.js",
   "directories": {
@@ -31,5 +31,16 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/git-source/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/git-source#readme"
+  "homepage": "https://github.com/IonicaBizau/git-source#readme",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
